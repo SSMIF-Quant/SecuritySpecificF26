@@ -1,0 +1,13 @@
+# Credentials - the scripts read ClickHouse config from a .env one level up
+.env
+
+# Cached intermediate data. Regenerate by running 01 through 07 in order.
+cache/
+*.pkl
+
+# Generated reports
+RISK_REPORT.txt
+
+__pycache__/
+*.pyc
+.DS_Store
